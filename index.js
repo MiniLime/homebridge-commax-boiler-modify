@@ -224,7 +224,7 @@ Thermostat.prototype.getServices = function() {
     this.service
         .getCharacteristic(Characteristic.TargetTemperature)
         .setProps({
-          minValue: 24,
+          minValue: 10,
           maxValue: 34,
           minStep: 1
         })
@@ -241,4 +241,5 @@ Thermostat.prototype.getServices = function() {
         .on('get', this.getName.bind(this))
 
     return [this.informationService, this.service]
+
 }
