@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-commax-boiler",
-  "version": "0.2.1",
-  "description": "Commax Home Automation Boiler for Homebridge",
+  "name": "homebridge-commax-boiler-modify",
+  "version": "0.0.1",
+  "description": "Commax Home Automation Boiler for Homebridge (modified)",
   "main": "index.js",
   "keywords": [
     "homebridge-plugin",
@@ -12,14 +12,14 @@
     "homebridge": ">=0.4.0",
     "node": ">=0.10.0"
   },
-  "author": "RubyOn",
+  "author": "goodlime",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubyon/homebridge-commax-boiler.git"
+    "url": "git://github.com/rubyon/homebridge-commax-boiler-modify.git"
   },
   "bugs": {
-    "url": "https://github.com/rubyon/homebridge-commax-boiler/issues",
+    "url": "https://github.com/rubyon/homebridge-commax-boiler-modfiy/issues",
     "email": "rubyon@me.com"
   },
   "dependencies": {
