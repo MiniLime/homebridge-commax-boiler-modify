@@ -9,7 +9,7 @@ module.exports = function(homebridge) {
     Service = homebridge.hap.Service
     Characteristic = homebridge.hap.Characteristic
     HomnebridgeAPI = homebridge
-    homebridge.registerAccessory("homebridge-commax-boiler", "CommaxBoiler", Thermostat)
+    homebridge.registerAccessory("homebridge-commax-boiler-modify", "CommaxBoiler-modify", Thermostat)
 }
 
 function Thermostat(log, config) {
@@ -243,3 +243,4 @@ Thermostat.prototype.getServices = function() {
     return [this.informationService, this.service]
 
 }
+
