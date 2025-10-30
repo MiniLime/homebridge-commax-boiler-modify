@@ -20,7 +20,7 @@
   },
   "bugs": {
     "url": "https://github.com/rubyon/homebridge-commax-boiler-modfiy/issues",
-    "email": "rubyon@me.com"
+    "email": "null"
   },
   "dependencies": {
     "request": "^2.88.0",
